@@ -1,6 +1,6 @@
 package xyz.makise.builder.lessbuilder;
 
-class ConcreteProduct1 extends Product {
+class ConcreteBuilder1 extends Builder {
     @Override
     void method1() {
         System.out.println("method1 execute");

@@ -2,10 +2,10 @@ package xyz.makise.builder.lessbuilder;
 
 class Client {
     public static void main(String[] args) {
-        Builder builder = new Builder();
-        Product aTypeConcreteProduct1 = builder.getATypeConcreteProduct1();
-        aTypeConcreteProduct1.templateMethod();
-        Product bTypeConcreteProduct2 = builder.getBTypeConcreteProduct2();
-        bTypeConcreteProduct2.templateMethod();
+        Director director = new Director();
+        Builder aTypeConcreteBuilder1 = director.getATypeConcreteProduct1();
+        aTypeConcreteBuilder1.templateMethod();
+        Builder bTypeConcreteBuilder2 = director.getBTypeConcreteProduct2();
+        bTypeConcreteBuilder2.templateMethod();
     }
 }
