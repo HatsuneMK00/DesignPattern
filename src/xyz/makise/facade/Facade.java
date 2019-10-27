@@ -18,4 +18,12 @@ class Facade {
     public void doSomethingC(){
         classC.doSomethingC();
     }
+
+//    这种形式的书中说不被允许使用在门面类中
+//    因为这个方法组合了两个子系统的类 相当于是在门面类里面写了业务逻辑 这样是不行的（书上严禁 但我觉得可以考虑这么使用）
+//    而是需要另开一个封装类封装这个业务逻辑
+    public void doSomethingD(){
+        classA.doSomethingA();
+        classC.doSomethingC();
+    }
 }
