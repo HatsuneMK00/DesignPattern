@@ -23,6 +23,7 @@ class Originator {
     }
 
     public void restoreMemento(Memento memento){
+//        恢复前应该有空指针的断言
         this.state = memento.getState();
     }
 }
