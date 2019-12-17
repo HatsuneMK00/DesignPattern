@@ -1,4 +1,4 @@
-package xyz.makise.Command;
+package xyz.makise.command;
 
 //这个类封装了一层Command类的调用
 //由它接受用户的请求 让Command类执行 即调用Command的execute方法

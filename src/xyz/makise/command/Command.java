@@ -1,4 +1,4 @@
-package xyz.makise.Command;
+package xyz.makise.command;
 
 abstract class Command {
 //    这边直接在基类里依赖所有具体的Receiver类（执行者类）

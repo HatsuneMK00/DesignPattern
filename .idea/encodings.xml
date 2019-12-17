@@ -14,5 +14,6 @@
     <file url="file://$PROJECT_DIR$/src/xyz/makise/singleton/Singleton.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/xyz/makise/strategy/Context.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/xyz/makise/strategy/IStrategy.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

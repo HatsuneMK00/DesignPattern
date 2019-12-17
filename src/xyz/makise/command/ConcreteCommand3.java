@@ -1,4 +1,4 @@
-package xyz.makise.Command;
+package xyz.makise.command;
 
 public class ConcreteCommand3 extends Command {
 //    这里可以通过构造函数传默认的Receiver类对象来实现与Client上层类完全解耦

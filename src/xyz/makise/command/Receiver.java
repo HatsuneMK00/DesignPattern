@@ -1,4 +1,4 @@
-package xyz.makise.Command;
+package xyz.makise.command;
 
 //具体Receiver类是有限的 因为实际做事的人有限
 abstract class Receiver {
