@@ -1,4 +1,4 @@
-package xyz.makise.Command;
+package xyz.makise.command;
 
 class ConcreteReceiver2 extends Receiver{
     @Override
